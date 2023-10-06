@@ -52,7 +52,7 @@ type HentakihabaraUser struct {
 
 const (
 	hentakihabaraBaseURL       = "http://hentakihabara2.altervista.org"
-	hentakihabaraCookiePath    = "/tmp/hentakihabara"
+	hentakihabaraCookiePath    = "akichat-cookie.txt"
 	hentakihabaraChatBotRole   = 4
 	hentakihabaraLogoutMessage = "<?xml version=\"1.0\" encoding=\"UTF-8\"?><root><infos><info type=\"logout\"><![CDATA[./?logout=true]]></info></infos></root>"
 )
